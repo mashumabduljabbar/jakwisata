@@ -1,0 +1,8 @@
+#Flutter
+.dart_tool/*
+.idea/*
+#Android Studio artifacts
+build/*
+/android/app/debug
+/android/app/profile
+/android/app/release
