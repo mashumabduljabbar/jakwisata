@@ -83,19 +83,19 @@ class _BerandaButton extends StatelessWidget {
     return Container(
       margin: const EdgeInsets.only(top: 30),
       child: ElevatedButton.icon(
-        icon: Icon(
+        icon: const Icon(
           Icons.search,
           color: Colors.white,
           size: 45,
         ),
-        label: Text('Cari Objek Wisata', style: TextStyle(fontSize: 21)),
+        label: const Text("Cari Objek Wisata", style: TextStyle(fontSize: 21)),
         onPressed: () {
           Navigator.pushReplacementNamed(context, '/objekwisata');
         },
         style: ElevatedButton.styleFrom(
           primary: Colors.indigo,
-          shape: new RoundedRectangleBorder(
-            borderRadius: new BorderRadius.circular(15),
+          shape: RoundedRectangleBorder(
+            borderRadius: BorderRadius.circular(15),
           ),
         ),
       ),
